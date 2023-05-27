@@ -9,5 +9,5 @@ for a in range(0,10):
         num = 1000*a + 100*a + 10*b + b
         if b==a:
             continue
-        elif math.sqrt(num)==int(math.sqrt(num)):
+        elif math.sqrt(num)==int(math.sqrt(num)): # 4位车号和一个整数的平方，最好的判断就是该数取平方根后和取平方根后取整一样，说明该数是一个整数的平方。
             print(num)
